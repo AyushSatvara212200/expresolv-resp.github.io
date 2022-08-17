@@ -44,6 +44,12 @@
   #navbar {
     width: 100%;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
   }
   #inno-supp {
     width: 100%;
@@ -114,5 +120,20 @@
   #menu-icon {
     width: 30px;
     height: 30px;
+  }
+  #menu-toggle {
+    width: 100%;
+    height: 300px;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 25px;
+    z-index: 4;
+    margin-top: 100px;
+    font-family: montserrat;
+    color: white;
+    background-color: #05215a;
   }
 }

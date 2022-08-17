@@ -37,6 +37,9 @@ body {
 #menu {
   display: none;
 }
+#menu-toggle {
+  display: none;
+}
 /* DISPLAY NONE END */
 
 #navbar {
@@ -89,6 +92,7 @@ body {
   width: 60%;
   height: 100%;
   font-size: 1vmax;
+  font-family: montserrat;
   display: flex;
   flex-direction: row;
   align-items: center;
