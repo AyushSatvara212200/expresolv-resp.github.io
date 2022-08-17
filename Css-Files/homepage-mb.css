@@ -1,0 +1,118 @@
+@media screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #05215a;
+  }
+  @font-face {
+    font-family: "chemical";
+    src: url("../Fonts/CHEMICAL.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "plex-mono";
+    src: url("../Fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: montserrat;
+    src: url("../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
+      format("truetype");
+  }
+  @font-face {
+    font-family: montserrat-bold;
+    src: url("../Fonts/Montserrat/static/Montserrat-ExtraBold.ttf")
+      format("truetype");
+  }
+  @font-face {
+    font-family: acme;
+    src: url("../Fonts/Acme/Acme-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: robot;
+    src: url("../Fonts/Roboto_Mono/static/RobotoMono-SemiBold.ttf")
+      format("truetype");
+  }
+
+  /* DISPLAY NONE */
+  #nav-elements {
+    display: none;
+  }
+  /* DISPLAY NONE END */
+
+  /* NAVIGATION BAR */
+
+  #navbar {
+    width: 100%;
+    height: 100px;
+  }
+  #inno-supp {
+    width: 100%;
+    height: 40px;
+    background-color: #05215a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: chemical;
+  }
+  #inno-supp-span {
+    font-size: 3vmin;
+    font-family: chemical;
+  }
+  #navbar-main {
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #brand-logo {
+    width: 200px;
+    height: 60px;
+  }
+  #brand-logo-a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+  }
+  #brand-logo-img {
+    width: 50px;
+    height: 100%;
+  }
+  #brand-logo-txt {
+    width: 140px;
+    height: 100%;
+  }
+  #nav-end {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #gmail-icon {
+    width: 30px;
+    height: 30px;
+  }
+  #phone-icon {
+    width: 30px;
+    height: 30px;
+  }
+  #menu {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
