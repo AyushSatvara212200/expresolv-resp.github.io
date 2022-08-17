@@ -136,4 +136,93 @@
     color: white;
     background-color: #05215a;
   }
+  #carousel {
+    width: 100%;
+    height: 500px;
+  }
+  .main-carousel {
+    width: 100%;
+    height: 500px;
+  }
+  .carousel-cell {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  #carousel-cell-img {
+    width: 100%;
+    height: 400px;
+    filter: brightness(60%);
+  }
+  #overlay,
+  #overlay1,
+  #overlay2 {
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+  #overlay-text,
+  #overlay-text-5 {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-family: acme;
+    text-align: center;
+  }
+  #overlay-text-2 {
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    font-family: acme;
+    text-align: center;
+  }
+  #overlay-text-1,
+  #overlay-text-3,
+  #overlay-text-6 {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-family: montserrat;
+    text-align: center;
+  }
+  #overlay-btn-div,
+  #overlay-btn-div1,
+  #overlay-btn-div2 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #overlay-button,
+  #overlay-button-1,
+  #overlay-button-2 {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 0;
+    background-color: rgb(4, 63, 126);
+  }
+  #overlay-button-img {
+    width: 20px;
+    height: 20px;
+  }
 }
