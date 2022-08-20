@@ -53,13 +53,14 @@ $(document).ready(function () {
     })
 });
 
-$(document).ready(function () {
-    $('#gmail-icon').on('click', function () {
-        window.location.href = "mailto:info@expresolv.com?subject=Subject&body=message%20goes%20here";
-    });
-});
-$(document).ready(function () {
-    $('#phone-icon').on('click', function () {
-        window.location = "tel:9426682674"
-    });
-});
+// $(document).ready(function () {
+//     $('#gmail-icon').on('click', function () {
+//         window.location.href = "mailto:info@expresolv.com?subject=Subject&body=message%20goes%20here";
+//     });
+// });
+// $(document).ready(function () {
+//     $('#phone-icon').on('click', function () {
+//         window.location = "tel:9426682674"
+//     });
+// });
+

@@ -25,7 +25,17 @@
 
 </head>
 
-<body>
+<body onload="load()">
+
+
+    <!-- LOADER -->
+    <section>
+        <div id="preloader">
+            <div class="loader"></div>
+        </div>
+    </section>
+    <!-- LOADER END -->
+
 
     <!-- NAVIGATION BAR -->
     <section>
@@ -397,6 +407,13 @@
         </div>
     </section> -->
     <!-- COPYRIGHT SECTION END -->
+
+    <script>
+        const preload = document.getElementById('preloader');
+        function load() {
+            preload.style.display = "none";
+        }
+    </script>
 
 </body>
 
