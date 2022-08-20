@@ -101,6 +101,65 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+#nav-elements div {
+  cursor: pointer;
+}
+#product-toggle {
+  width: 200px;
+  height: 240px;
+  background-color: #05215a;
+  position: absolute;
+  z-index: 5;
+  margin-top: 10px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#product-toggle div:hover {
+  background-color: rgb(10, 58, 156);
+}
+#product-toggle::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, #0a3a9c, #0a3a9c);
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#product-toggle::after {
+  content: "";
+  position: absolute;
+  background: #07182e;
+  inset: 5px;
+  border-radius: 15px;
+}
+#product-item-1,
+#product-item-2,
+#product-item-3 {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  z-index: 1;
+}
 #nav-end {
   width: 100px;
   height: 100%;

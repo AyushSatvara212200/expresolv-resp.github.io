@@ -42,3 +42,13 @@ $(document).ready(function () {
         $('#menu-toggle').slideToggle("slow").css("display", "flex");
     })
 });
+
+$(document).ready(function () {
+    $('#product-span').click(function () {
+        $('#product-toggle').slideToggle().css("display", "flex");
+        return false;
+    })
+    $(document).click(function () {
+        $('#product-toggle').slideUp();
+    })
+});
