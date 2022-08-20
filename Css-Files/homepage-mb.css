@@ -288,4 +288,59 @@
       transform: rotate(360deg);
     }
   }
+  #company-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  #text-comp {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #text-comp h1 {
+    font-family: acme;
+    padding: 15px;
+  }
+  #text-comp p {
+    margin-top: 40px;
+    padding: 15px;
+    font-family: montserrat;
+  }
+  #btn-comp {
+    width: 14vmax;
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #05215a;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family: acme;
+    box-shadow: inset -6px -6px 12px #020f28, inset 6px 6px 12px #08338c;
+  }
+  #btn-comp:active {
+    box-shadow: inset -6px -6px 12px #08338c, inset 6px 6px 12px #020f28;
+  }
+  #img-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #factory-img {
+    width: 350px;
+    object-fit: contain;
+    margin: 0;
+    padding: 15px;
+    border-radius: 30px;
+  }
 }
