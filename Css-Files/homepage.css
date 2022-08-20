@@ -104,10 +104,6 @@ body {
 #nav-elements div {
   cursor: pointer;
 }
-#products {
-  height: 100%;
-  padding-top: 20px;
-}
 #home:hover,
 #aboutus:hover,
 #services:hover,
@@ -124,7 +120,6 @@ body {
   background-color: #05215a;
   position: absolute;
   z-index: 5;
-  margin-top: 10px;
   display: none;
   flex-direction: column;
   align-items: center;
@@ -166,6 +161,7 @@ body {
   inset: 5px;
   border-radius: 15px;
 }
+
 #product-item-1,
 #product-item-2,
 #product-item-3 {
