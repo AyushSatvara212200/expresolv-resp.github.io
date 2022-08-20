@@ -6,7 +6,7 @@ $(document).ready(function () {
         prevNextButtons: false,
         pageDots: false,
         wrapAround: true,
-        // autoPlay: true,
+        autoPlay: true,
         pauseAutoPlayOnHover: false,
     });
 });
@@ -44,7 +44,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('#product-span').click(function () {
+    $('#products').click(function () {
         $('#product-toggle').slideToggle().css("display", "flex");
         return false;
     })

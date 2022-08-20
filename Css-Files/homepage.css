@@ -104,6 +104,20 @@ body {
 #nav-elements div {
   cursor: pointer;
 }
+#products {
+  height: 100%;
+  padding-top: 20px;
+}
+#home:hover,
+#aboutus:hover,
+#services:hover,
+#products:hover,
+#career:hover,
+#contact:hover,
+#downloads:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
 #product-toggle {
   width: 200px;
   height: 240px;
