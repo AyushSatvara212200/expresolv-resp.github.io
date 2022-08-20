@@ -202,7 +202,62 @@ body {
 #overlay-button-2:hover {
   box-shadow: inset -6px -6px 12px #08338c, inset 6px 6px 12px #020f28;
 }
+#overlay-button:active,
+#overlay-button-1:active,
+#overlay-button-2:active {
+  box-shadow: inset -6px -6px 12px #020f28, inset 6px 6px 12px #08338c;
+}
 #overlay-button-img {
   width: 2vw;
   height: 2vw;
+}
+#wrap {
+  width: 100%;
+  height: 350px;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  margin-top: -75px;
+}
+#wave {
+  width: 4500px;
+  height: 4500px;
+  border-radius: 2200px;
+  margin-top: 20px;
+  margin-left: -2000px;
+  background-color: #05215a;
+  animation: wave 6s infinite linear;
+  z-index: 1;
+}
+#wave2 {
+  width: 3000px;
+  height: 3000px;
+  border-radius: 1400px;
+  background-color: rgb(6, 43, 116);
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -800px;
+  transform: rotate(45deg);
+  animation: wave 12s infinite linear;
+}
+#wave3 {
+  width: 3000px;
+  height: 3000px;
+  border-radius: 1400px;
+  background-color: rgb(10, 58, 156);
+  position: absolute;
+  margin-top: 40px;
+  margin-left: -200px;
+  transform: rotate(45deg);
+  animation: wave 14s infinite linear;
+}
+@keyframes wave {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
