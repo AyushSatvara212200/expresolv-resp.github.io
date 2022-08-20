@@ -341,8 +341,10 @@
     width: 350px;
     object-fit: contain;
     margin: 0;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 30px;
     box-shadow: none;
+    -webkit-box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
+    box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
   }
 }
