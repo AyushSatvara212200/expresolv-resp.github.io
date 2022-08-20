@@ -4,10 +4,9 @@ $(document).ready(function () {
         cellAlign: 'right',
         contain: true,
         prevNextButtons: false,
-        fade: true,
         pageDots: false,
         wrapAround: true,
-        autoPlay: 3000,
+        // autoPlay: true,
         pauseAutoPlayOnHover: false,
     });
 });
