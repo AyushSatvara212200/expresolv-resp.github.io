@@ -252,7 +252,7 @@
     height: 4500px;
     border-radius: 2200px;
     margin-top: 20px;
-    margin-left: -2000px;
+    margin-left: -2400px;
     background-color: #05215a;
     animation: wave 6s infinite linear;
     z-index: 1;
@@ -335,16 +335,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
   }
   #factory-img {
-    width: 350px;
+    width: 50vw;
+    height: 50vw;
     object-fit: contain;
     margin: 0;
-    /* padding: 15px; */
-    border-radius: 30px;
+    padding: 0;
+    /* border-radius: 30px;
     box-shadow: none;
     -webkit-box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
-    box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
+    box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76); */
   }
 }

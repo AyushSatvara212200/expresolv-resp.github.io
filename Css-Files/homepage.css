@@ -33,7 +33,7 @@ body {
 }
 
 #preloader {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: fixed;
   left: 0px;
@@ -436,15 +436,15 @@ body {
   line-height: 25px;
 }
 #img-comp {
-  width: 40vw;
-  height: 40vw;
+  width: 45vw;
+  height: 45vw;
 }
 #factory-img {
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
-  -webkit-box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
-  box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
+  width: 45vw;
+  height: 45vw;
+  /* border-radius: 30px; */
+  /* -webkit-box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76); */
+  /* box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76); */
 }
 #btn-comp {
   width: 200px;
