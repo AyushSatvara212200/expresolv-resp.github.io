@@ -32,8 +32,8 @@ body {
     format("truetype");
 }
 
-#preloader {
-  width: 100vw;
+.preloader {
+  width: 100%;
   height: 100vh;
   position: fixed;
   left: 0px;
@@ -45,8 +45,8 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  left: 50%;
-  top: 50%;
+  left: 48%;
+  top: 48%;
   position: fixed;
   border: 3px solid;
   box-sizing: border-box;
@@ -237,6 +237,13 @@ body {
   height: 80px;
   padding: 10px;
   z-index: 1;
+}
+#pr-item-a1,
+#pr-item-a2,
+#pr-item-a3 {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: white;
 }
 #nav-end {
   width: 100px;
