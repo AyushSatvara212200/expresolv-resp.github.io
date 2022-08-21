@@ -285,10 +285,10 @@
     border-radius: 1400px;
     background-color: #062b74;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: -800px;
     transform: rotate(45deg);
-    animation: wave 12s infinite linear;
+    animation: wave 10s infinite linear;
   }
   #wave3 {
     width: 3000px;
@@ -364,9 +364,75 @@
     object-fit: contain;
     margin: 0;
     padding: 0;
-    /* border-radius: 30px;
-    box-shadow: none;
-    -webkit-box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76);
-    box-shadow: 1px 9px 39px 4px rgba(0, 0, 0, 0.76); */
+  }
+  #who-we-r {
+    width: 100%;
+    height: 80vw;
+    background: url("/Images/we-bg.jpeg");
+  }
+  #who-we-r-img {
+    width: 100%;
+    height: 80vw;
+    z-index: 1;
+    margin: 0;
+    background-color: #001b4f;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #who-we-r-header {
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+    font-family: acme;
+    color: white;
+  }
+  #who-we-r-footer {
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  #col-1 {
+    width: 80%;
+    height: 25vw;
+    display: flex;
+    background-color: #0a2364;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(40 75 156);
+    border-radius: 20px;
+  }
+  #col-2 {
+    width: 80%;
+    height: 25vw;
+    display: flex;
+    background-color: #0a2364;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(40 75 156);
+    border-radius: 20px;
+  }
+  #col-3 {
+    width: 80%;
+    height: 25vw;
+    display: flex;
+    background-color: #0a2364;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(40 75 156);
+    border-radius: 20px;
   }
 }
