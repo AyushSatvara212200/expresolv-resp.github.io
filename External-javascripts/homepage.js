@@ -60,7 +60,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     $('#phone-icon').on('click', function () {
-        window.location = "tel:9426682674"
+        window.location = "tel:9426082674"
     });
 });
 
