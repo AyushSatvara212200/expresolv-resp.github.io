@@ -845,3 +845,76 @@ button:focus:not(:focus-visible) {
   flex-direction: column;
   align-items: center;
 }
+#client-test {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #06276a;
+}
+#client-test-text {
+  width: 100%;
+  text-align: center;
+  font-size: 4.5vw;
+  color: white;
+  font-family: acme;
+  margin-top: 50px;
+}
+.carousel-1 {
+  width: 80vw;
+  height: 20vw;
+  color: white;
+}
+#carousel-cell-1 {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#carousel-cell-1-h5 {
+  font-size: 3vw;
+  font-family: acme;
+}
+#carousel-cell-1-para {
+  font-size: 1.4vw;
+  font-family: montserrat;
+  text-align: center;
+}
+#carousel-cell-2 {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#carousel-cell-2-h5 {
+  font-size: 3vw;
+  font-family: acme;
+}
+#carousel-cell-2-para {
+  font-size: 1.4vw;
+  font-family: montserrat;
+  text-align: center;
+}
+#carousel-cell-3 {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#carousel-cell-3-h5 {
+  font-size: 3vw;
+  font-family: acme;
+}
+#carousel-cell-3-para {
+  font-size: 1.4vw;
+  font-family: montserrat;
+  text-align: center;
+}
