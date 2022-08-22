@@ -577,25 +577,25 @@
     gap: 30px;
   }
   #card-1 {
-    width: 80%;
+    width: 85%;
     height: 45vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #092968;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: inset 0px 0px 27px 3px rgba(10, 87, 219, 0.523);
     font-family: acme;
   }
   #card-1-img {
     width: 45vw;
     height: 45vw;
-    border-radius: 20px;
+    border-radius: 8px;
   }
   #card-1-h5 {
     width: 100%;
     height: auto;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 1vw;
   }
@@ -606,19 +606,19 @@
   }
   #card-1-p {
     font-family: montserrat;
-    font-size: 2vw;
+    font-size: 2.3vw;
     margin: 2vw;
     text-align: center;
   }
   #card-1-btn {
-    width: 12vw;
-    height: 4vw;
+    width: 20vw;
+    height: 5vw;
     color: white;
     border: none;
     border-radius: 5px;
     background-color: #062b74;
     box-shadow: 2px 2px 0px #02112eba, -2px -2px 0px #052463b8;
-    font-size: 1.4vw;
+    font-size: 2vw;
     margin: 10px;
     text-align: center;
   }
@@ -626,25 +626,25 @@
     box-shadow: inset 2px 2px 0px #02112e, inset -2px -2px 0px #0a45ba;
   }
   #card-2 {
-    width: 80%;
+    width: 85%;
     height: 45vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #092968;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: inset 0px 0px 27px 3px rgba(10, 87, 219, 0.523);
     font-family: acme;
   }
   #card-2-img {
     width: 45vw;
     height: 45vw;
-    border-radius: 20px;
+    border-radius: 8px;
   }
   #card-2-h5 {
     width: 100%;
     height: auto;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 1vw;
   }
@@ -655,19 +655,19 @@
   }
   #card-2-p {
     font-family: montserrat;
-    font-size: 2vw;
+    font-size: 2.3vw;
     margin: 2vw;
     text-align: center;
   }
   #card-2-btn {
-    width: 12vw;
-    height: 4vw;
+    width: 20vw;
+    height: 5vw;
     color: white;
     border: none;
     border-radius: 5px;
     background-color: #062b74;
     box-shadow: 2px 2px 0px #02112eba, -2px -2px 0px #052463b8;
-    font-size: 1.4vw;
+    font-size: 2vw;
     margin: 10px;
     text-align: center;
   }
@@ -675,25 +675,25 @@
     box-shadow: inset 2px 2px 0px #02112e, inset -2px -2px 0px #0a45ba;
   }
   #card-3 {
-    width: 80%;
+    width: 85%;
     height: 45vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #092968;
-    border-radius: 20px;
+    border-radius: 8px;
     box-shadow: inset 0px 0px 27px 3px rgba(10, 87, 219, 0.523);
     font-family: acme;
   }
   #card-3-img {
     width: 45vw;
     height: 45vw;
-    border-radius: 20px;
+    border-radius: 8px;
   }
   #card-3-h5 {
     width: 100%;
     height: auto;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     text-align: center;
     margin: 1vw;
   }
@@ -704,19 +704,19 @@
   }
   #card-3-p {
     font-family: montserrat;
-    font-size: 2vw;
+    font-size: 2.3vw;
     margin: 2vw;
     text-align: center;
   }
   #card-3-btn {
-    width: 12vw;
-    height: 4vw;
+    width: 20vw;
+    height: 5vw;
     color: white;
     border: none;
     border-radius: 5px;
     background-color: #062b74;
     box-shadow: 2px 2px 0px #02112eba, -2px -2px 0px #052463b8;
-    font-size: 1.4vw;
+    font-size: 2vw;
     margin: 10px;
     text-align: center;
   }
