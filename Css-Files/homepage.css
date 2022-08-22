@@ -847,7 +847,7 @@ button:focus:not(:focus-visible) {
 }
 #client-test {
   width: 100%;
-  height: auto;
+  height: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
