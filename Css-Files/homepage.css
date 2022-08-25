@@ -347,21 +347,21 @@ body {
   gap: 10px;
   margin-left: 90px;
   border: none;
-  background-color: #072c76;
+  background-color: #05215a;
   color: white;
   border-radius: 10px;
   font-size: 1.5vw;
-  box-shadow: inset -6px -6px 12px #020f28, inset 6px 6px 12px #08338c;
+  box-shadow: 2px 2px 0px #02112eba, -2px -2px 0px #05215a;
 }
-#overlay-button:hover,
+/* #overlay-button:hover,
 #overlay-button-1:hover,
 #overlay-button-2:hover {
-  box-shadow: inset -6px -6px 12px #08338c, inset 6px 6px 12px #020f28;
-}
+  box-shadow: inset 5px 5px 9px #02112e, inset -5px -5px 9px #0a45ba;
+} */
 #overlay-button:active,
 #overlay-button-1:active,
 #overlay-button-2:active {
-  box-shadow: inset -6px -6px 12px #020f28, inset 6px 6px 12px #08338c;
+  box-shadow: inset 4px 4px 0px #02112e, inset -4px -4px 0px #0a45ba;
 }
 #overlay-button-img {
   width: 2vw;
