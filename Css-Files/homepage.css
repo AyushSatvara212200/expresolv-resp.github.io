@@ -247,7 +247,6 @@ body {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   color: white;
-  position: fixed;
 }
 #nav-end {
   width: 100px;

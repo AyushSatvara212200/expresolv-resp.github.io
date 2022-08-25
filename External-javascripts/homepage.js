@@ -77,7 +77,9 @@ $(document).ready(function () {
     })
 });
 
-
+function functionAlert() {
+    alert("Sorry for inconvienience , page is not developed yet !!")
+}
 
 
 
