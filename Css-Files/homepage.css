@@ -242,9 +242,12 @@ body {
 #pr-item-a1,
 #pr-item-a2,
 #pr-item-a3 {
+  width: 180px;
+  height: 80px;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   color: white;
+  position: fixed;
 }
 #nav-end {
   width: 100px;
