@@ -44,6 +44,13 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    $("#products-mb").click(function () {
+        $('#product-mb-dropdown').slideToggle("fast").css("display", "flex");
+    })
+});
+
+
+$(document).ready(function () {
     $('#products').click(function () {
         $('#product-toggle').slideToggle().css("display", "flex");
         return false;

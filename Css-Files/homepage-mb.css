@@ -153,17 +153,44 @@
   }
   #menu-toggle {
     width: 100%;
-    height: 300px;
+    height: auto;
     display: none;
     flex-direction: column;
     position: fixed;
     align-items: center;
     justify-content: space-evenly;
-    line-height: 25px;
+    line-height: 38px;
     z-index: 4;
     margin-top: 100px;
     font-family: montserrat;
     color: white;
+    background-image: radial-gradient(#072f80,#03163b);
+  }
+  #product-mb-dropdown {
+    width: 100%;
+    height: 240px;
+    background-color: #072f80;
+    background-image: radial-gradient(#041c4b,#072f80);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: montserrat;
+  }
+  #product-list1,#product-list2,#product-list3{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid white;
+    padding: 10px;
+  }
+  #product-list1{
+    border-top:0.5px solid white;
+  }
+  #product-list1:active,#product-list2:active,#product-list3:active{
     background-color: #05215a;
   }
   /* CAROUSEL */
