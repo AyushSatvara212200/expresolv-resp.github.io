@@ -110,7 +110,6 @@ body {
 }
 /* DISPLAY NONE END */
 
-
 /* NAVIGATION BAR */
 #navbar {
   width: 100%;
@@ -289,7 +288,9 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-#carousel-cell-img {
+#carousel-cell-img,
+#carousel-cell-img1,
+#carousel-cell-img2 {
   width: 100%;
   height: 700px;
   object-fit: cover;
@@ -363,7 +364,9 @@ body {
 #overlay-button-2:active {
   box-shadow: inset 4px 4px 0px #02112e, inset -4px -4px 0px #0a45ba;
 }
-#overlay-button-img {
+#overlay-button-img,
+#overlay-button-img1,
+#overlay-button-img2 {
   width: 2vw;
   height: 2vw;
 }
@@ -971,7 +974,14 @@ button:focus:not(:focus-visible) {
   margin-top: 50px;
   border-radius: 20px;
 }
-#comp-img {
+#comp-img,
+#comp-img2,
+#comp-img3,
+#comp-img4,
+#comp-img5,
+#comp-img6,
+#comp-img7,
+#comp-img8 {
   width: 14vw;
   height: 9vw;
 }
@@ -1063,9 +1073,9 @@ button:focus:not(:focus-visible) {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  -webkit-box-shadow: inset -20px 19px 21px -12px rgba(0,0,0,0.75);
--moz-box-shadow: inset -20px 19px 21px -12px rgba(0,0,0,0.75);
-box-shadow: inset -20px 19px 21px -12px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
 }
 #footer-1 {
   width: 30vw;
