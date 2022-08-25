@@ -169,6 +169,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  -webkit-tap-highlight-color: transparent;
 }
 #nav-elements div {
   cursor: pointer;
@@ -184,8 +185,8 @@ body {
   transition: 0.3s ease-in-out;
 }
 #product-toggle {
-  width: 200px;
-  height: 240px;
+  width: 15vw;
+  height: 15vw;
   background-color: #05215a;
   position: absolute;
   z-index: 5;
@@ -194,7 +195,7 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 14px;
+  font-size: 1vw;
   place-content: center;
   place-items: center;
   overflow: hidden;
@@ -235,15 +236,15 @@ body {
 #product-item-2,
 #product-item-3 {
   width: 100%;
-  height: 80px;
+  height: 100%;
   padding: 10px;
   z-index: 1;
 }
 #pr-item-a1,
 #pr-item-a2,
 #pr-item-a3 {
-  width: 180px;
-  height: 80px;
+  width: 100%;
+  height: auto;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   color: white;
