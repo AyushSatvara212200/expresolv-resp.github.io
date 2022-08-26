@@ -6,7 +6,7 @@
     background-color: #05215a;
   }
   @font-face {
-    font-family: "chemical";
+    font-family: chemical;
     src: url("../Fonts/CHEMICAL.ttf") format("truetype");
   }
 
