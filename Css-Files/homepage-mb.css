@@ -372,6 +372,7 @@
   #text-comp h1 {
     font-family: acme;
     padding: 15px;
+    font-size: 8vw;
   }
   #text-comp p {
     margin-top: 40px;
