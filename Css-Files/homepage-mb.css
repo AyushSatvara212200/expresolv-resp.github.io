@@ -1073,8 +1073,12 @@
     width: 5vw;
     height: 5vw;
   }
+  #address1 a {
+    padding-top: 0;
+  }
   #contact-info {
     width: 80%;
+    margin-top: 0;
   }
   #contact-info p {
     font-size: 2.5vw;
