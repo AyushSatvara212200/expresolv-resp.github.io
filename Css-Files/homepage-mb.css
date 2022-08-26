@@ -9,28 +9,15 @@
     font-family: "chemical";
     src: url("../Fonts/CHEMICAL.ttf") format("truetype");
   }
-  @font-face {
-    font-family: "plex-mono";
-    src: url("../Fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf") format("truetype");
-  }
+
   @font-face {
     font-family: montserrat;
     src: url("../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf")
       format("truetype");
   }
   @font-face {
-    font-family: montserrat-bold;
-    src: url("../Fonts/Montserrat/static/Montserrat-ExtraBold.ttf")
-      format("truetype");
-  }
-  @font-face {
     font-family: acme;
     src: url("../Fonts/Acme/Acme-Regular.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: robot;
-    src: url("../Fonts/Roboto_Mono/static/RobotoMono-SemiBold.ttf")
-      format("truetype");
   }
 
   /* DISPLAY NONE */
