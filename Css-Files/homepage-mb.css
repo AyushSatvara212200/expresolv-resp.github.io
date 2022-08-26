@@ -861,7 +861,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin: 0;
   }
   #major-customer-h5 {
     font-size: 8vw;
