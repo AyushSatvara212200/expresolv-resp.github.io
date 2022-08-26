@@ -313,7 +313,7 @@ body {
 #search-bar{
   width: 100%;
   height: 5vw;
-  background-image: linear-gradient(rgb(28, 160, 186),rgb(103, 202, 255));
+  background-color: #c9dbff;
   position: absolute;
   display: flex;
   align-items: center;
@@ -323,17 +323,17 @@ body {
 #input-tag{
   width: 70%;
   height: 5vw;
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.662);
   background-color: transparent;
   border: none;
   font-size: 2vw;
   -webkit-tap-highlight-color: transparent;
   outline: none;
-  text-align: center;
+
 }
 ::placeholder{
-  color: rgba(0, 0, 0, 0.658);
-  text-align: center;
+  color: rgba(0, 0, 0, 0.662);
+
 }
 #search-icon{
   width: 2vw;
