@@ -377,6 +377,9 @@ header {
   justify-content: space-evenly;
   margin: 20px;
 }
+#product-cont:hover div:not(:hover){
+filter: brightness(50%);
+}
 #product-cont div {
   width: 270px;
   height: 220px;
@@ -434,7 +437,12 @@ header {
   text-align: center;
   margin: 5px 0px 0px 0px;
 }
-#product-div-1 button {
+#product-div-1 a{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+#product-div-1 a button {
   width: 80%;
   height: 30px;
   margin-top: 20px;
