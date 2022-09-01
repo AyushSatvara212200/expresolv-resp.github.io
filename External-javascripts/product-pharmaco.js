@@ -37,3 +37,15 @@ $(document).ready(function () {
         $('.preloader').fadeOut(1000);
     })
 });
+$(document).ready(function () {
+    $('.cust-carousel').flickity({
+        // options
+        cellAlign: 'right',
+        contain: true,
+        prevNextButtons: false,
+        wrapAround: true,
+        autoPlay: 2500,
+        pauseAutoPlayOnHover: false,
+        pageDots: false,
+    });
+});

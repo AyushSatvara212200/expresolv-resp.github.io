@@ -347,8 +347,8 @@ header {
   width: 100%;
   height: 5vw;
   color: white;
-  font-family: acme;
-  font-size: 2vw;
+  font-family: montserrat;
+  font-size: 2vmax;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -373,8 +373,8 @@ header {
   margin: 20px;
 }
 #product-cont div {
-  width: 260px;
-  height: 200px;
+  width: 270px;
+  height: 220px;
   background-color: #c9dbff;
   margin: 20px;
   display: flex;
@@ -442,3 +442,278 @@ header {
   cursor: pointer;
 }
 /* PRODUCT CARDS END */
+/* MAJOR CUSTOMER */
+.major-customer {
+  width: 100%;
+  height: 30vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#major-customer-text {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#major-customer-h5 {
+  font-size: 4vw;
+  font-family: acme;
+  color: white;
+}
+.cust-carousel {
+  width: 80vw;
+  height: 15vw;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+#comp-img,
+#comp-img2,
+#comp-img3,
+#comp-img4,
+#comp-img5,
+#comp-img6,
+#comp-img7,
+#comp-img8 {
+  width: 14vw;
+  height: 9vw;
+}
+#company-name-1 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-2 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-3 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-4 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-4 img {
+  background-color: rgb(193, 217, 255);
+}
+#company-name-5 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-6 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-7 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#company-name-8 {
+  width: 20vw;
+  height: 15vw;
+  background-color: rgb(193, 217, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/* MAJOR CUSTOMERS END */
+/* FOOTER */
+#footer {
+  width: 100%;
+  height: 25vw;
+  background-color: rgba(154, 196, 255, 0.875);
+  background-image: radial-gradient(#7daaff, #1c58bf);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  -webkit-box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: inset -20px 19px 21px -12px rgba(0, 0, 0, 0.75);
+}
+#footer-1 {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer-1-img {
+  width: 20vw;
+  height: 7vw;
+  margin-top: 30px;
+}
+#footer-1-sm {
+  width: 100%;
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#footer-1-sm img {
+  width: 2vw;
+  height: 2vw;
+}
+#footer-2 {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+#footer-title {
+  font-family: acme;
+  font-weight: 800;
+  font-size: 1.5vw;
+  margin-top: 30px;
+}
+#footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: montserrat;
+  line-height: 3vw;
+  font-size: 1.2vw;
+}
+#footer-3 {
+  width: 25vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+#footer-title3 {
+  font-family: acme;
+  font-weight: 800;
+  font-size: 1.5vw;
+  margin-top: 30px;
+}
+#footer-text3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: montserrat;
+  line-height: 3vw;
+  font-size: 1.2vw;
+}
+#footer-4 {
+  width: 35vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+#footer-text4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: montserrat;
+  line-height: 2vw;
+}
+#footer-title4 {
+  font-family: acme;
+  font-weight: 800;
+  font-size: 1.5vw;
+  margin-top: 30px;
+}
+#address1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#address1 img {
+  width: 2vw;
+  height: 2vw;
+}
+#address1 p {
+  font-family: montserrat;
+  font-size: 1.2vw;
+}
+#address1 a{
+  padding-top: 16px;
+}
+#contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#contact-info img {
+  width: 2vw;
+  height: 2vw;
+  margin-top: 16px;
+}
+#contact-info p a {
+  text-decoration: none;
+  color: black;
+}
+#contact-info p {
+  font-family: montserrat;
+  font-size: 1.2vw;
+}
+#footer-mb {
+  display: none;
+}
+
+/* FOOTER END */
+
+/* COPYRIGHT */
+#copyright {
+  width: 100%;
+  height: 3vw;
+  background-color: rgba(16, 67, 150, 0.76);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: montserrat;
+  color: white;
+}
+#copyright span {
+  font-size: 1vw;
+}
+/* COPYRIGHT END */
