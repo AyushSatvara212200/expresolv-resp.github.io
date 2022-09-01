@@ -316,7 +316,7 @@ header {
 /* SEARCH BAR */
 #search-bar {
   width: 100%;
-  height: 5vw;
+  height: 70px;
   background-color: #c9dbff;
   display: flex;
   align-items: center;
@@ -324,11 +324,11 @@ header {
 }
 #input-tag {
   width: 70%;
-  height: 5vw;
+  height: 100%;
   color: rgba(0, 0, 0, 0.662);
   background-color: transparent;
   border: none;
-  font-size: 2vw;
+  font-size: 30px;
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
@@ -336,8 +336,8 @@ header {
   color: rgba(0, 0, 0, 0.662);
 }
 #search-icon {
-  width: 2vw;
-  height: 2vw;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
 }
 /* SEARCH BAR END */
@@ -345,14 +345,17 @@ header {
 /* TEXT */
 #txt {
   width: 100%;
-  height: 5vw;
-  color: white;
-  font-family: montserrat;
-  font-size: 2.2vw;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px 0px 20px 0px;
+}
+#txt p{
+  color: white;
+  font-family: montserrat;
+  font-size: 50px;
+  text-align: center;
 }
 /* TEXT END */
 /* PRODUCT CARDS */
