@@ -328,7 +328,7 @@ header {
   color: rgba(0, 0, 0, 0.662);
   background-color: transparent;
   border: none;
-  font-size: 30px;
+  font-size: 20px;
   -webkit-tap-highlight-color: transparent;
   outline: none;
 }
@@ -336,8 +336,8 @@ header {
   color: rgba(0, 0, 0, 0.662);
 }
 #search-icon {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
 }
 /* SEARCH BAR END */
@@ -354,8 +354,10 @@ header {
 #txt p{
   color: white;
   font-family: montserrat;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
+  margin: 10px;
+  padding: 0;
 }
 /* TEXT END */
 /* PRODUCT CARDS */

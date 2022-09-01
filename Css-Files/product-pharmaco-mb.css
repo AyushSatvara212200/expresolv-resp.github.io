@@ -238,7 +238,7 @@
   /* SEARCH BAR */
   #search-bar {
     width: 100%;
-  height: 5vw;
+  height: 50px;
   background-color: #c9dbff;
   position: relative;
   display: flex;
@@ -246,12 +246,12 @@
   justify-content: center;
   }
   #input-tag {
-    width: 70%;
-    height: 5vw;
+    width: 80%;
+    height: 50px;
     color: rgba(0, 0, 0, 0.662);
     background-color: transparent;
     border: none;
-    font-size: 2vw;
+    font-size: 20px;
     -webkit-tap-highlight-color: transparent;
     outline: none;
   }
@@ -259,8 +259,8 @@
     color: rgba(0, 0, 0, 0.662);
   }
   #search-icon {
-    width: 2vw;
-    height: 2vw;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
   }
   /* SEARCH BAR END */
