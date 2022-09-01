@@ -195,7 +195,6 @@
   #category-heading {
     width: 100%;
     height: 50vw;
-    position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,7 +237,32 @@
 
   /* SEARCH BAR */
   #search-bar {
-    display: none;
+    width: 100%;
+  height: 5vw;
+  background-color: #c9dbff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  #input-tag {
+    width: 70%;
+    height: 5vw;
+    color: rgba(0, 0, 0, 0.662);
+    background-color: transparent;
+    border: none;
+    font-size: 2vw;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+  ::placeholder {
+    color: rgba(0, 0, 0, 0.662);
+  }
+  #search-icon {
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    
   }
   /* SEARCH BAR END */
 }
