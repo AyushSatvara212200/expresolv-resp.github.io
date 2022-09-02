@@ -265,10 +265,7 @@
   }
   /* SEARCH BAR END */
   /* CHEM DETAILS */
-  #chem-description{
-    display: none;
-  }
-  #chem-details{
+  #chem-info{
     display: none;
   }
   /* CHEM DETAILS END */
