@@ -264,4 +264,12 @@
     cursor: pointer;
   }
   /* SEARCH BAR END */
+  /* CHEM DETAILS */
+  #chem-description{
+    display: none;
+  }
+  #chem-details{
+    display: none;
+  }
+  /* CHEM DETAILS END */
 }
