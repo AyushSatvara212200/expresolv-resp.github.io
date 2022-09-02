@@ -366,6 +366,11 @@ header {
   height: 100%;
   background-color: #60efff;
 }
+#chem-table{
+  width: 500px;
+  height: 300px;
+  background-color: #00ff87;
+}
 #chem-img {
   width: 100%;
   height: 176px;
@@ -454,5 +459,15 @@ header {
   width: 100%;
   height: 100%;
   background-color: white;
+  font-family: montserrat;
+  text-align: center;
+}
+#safety-symbols h2{
+  width: 100%;
+  text-align: center;
+}
+#safety-symbols img{
+  width: 100px;
+  height: 100px;
 }
 /* CHEMICAL INFO END */
