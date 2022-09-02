@@ -483,25 +483,35 @@ hr{
   background-color: #05215a;
   display: none;
 }
-#gp-slider-usp-table{
+#gp-slider-usp-table tr:nth-child(even){
+  background-color: #09348a;
+}
+#gp-slider-phur-table tr:nth-child(even){
+  background-color: #09348a;
+}
+#gp-slider-bp-table tr:nth-child(even){
+  background-color: #09348a;
+}
+#gp-slider-usp-table,#gp-slider-phur-table,#gp-slider-bp-table{
   width: 100%;
   height: 100%;
   text-align: center;
+  border-collapse: collapse;
 }
-#gp-slider-usp-table th{
+#gp-slider-usp-table th,#gp-slider-phur-table th,#gp-slider-bp-table th{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
 }
 #gp-slider-phur{
   width: 100%;
   height: 250px;
-  background-color: #1f332a;
+  background-color: #05215a;
   display: none;
 }
 #gp-slider-bp{
   width: 100%;
   height: 250px;
-  background-color: #1076a5;
+  background-color: #05215a;
   display: none;
 }
 #document-txt {
