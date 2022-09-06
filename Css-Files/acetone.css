@@ -368,7 +368,7 @@ header {
   height: 550px;
   color: white;
   font-family: montserrat;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 #chem-details::-webkit-scrollbar-button{
   background-color: transparent;
