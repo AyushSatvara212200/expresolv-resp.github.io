@@ -39,20 +39,20 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
     $("#pointer").click(function () {
-        $("#gp-slider-usp").slideToggle("fast").css("z-index", "1");
+        $("#gp-slider-usp").slideToggle("fast");
 
     })
 
 });
 $(document).ready(function () {
     $("#pointer1").click(function () {
-        $("#gp-slider-phur").slideToggle("fast").css("background-color", "#101752");
+        $("#gp-slider-phur").slideToggle("fast");
     })
 
 });
 $(document).ready(function () {
     $("#pointer2").click(function () {
-        $("#gp-slider-bp").slideToggle("fast").css("z-index", "1");
+        $("#gp-slider-bp").slideToggle("fast");
     })
 
 });

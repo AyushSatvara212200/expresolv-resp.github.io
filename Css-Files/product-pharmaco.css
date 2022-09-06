@@ -263,7 +263,14 @@ header {
   transform: scale(1.2);
   transition: 0.3s ease-in-out;
 }
-
+#contact a{
+  text-decoration: none;
+  color: black;
+}
+#home a{
+  text-decoration: none;
+  color: black;
+}
 /* NAVIGATION END */
 
 /* CATEGORY SECTION */
