@@ -370,9 +370,8 @@ header {
   font-family: montserrat;
   overflow-y: scroll;
 }
-#chem-details::-webkit-scrollbar-button{
-  background-color: transparent;
-  color: transparent;
+#chem-details::-webkit-scrollbar{
+ display: none;
 }
 #chem {
   width: 100%;
