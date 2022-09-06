@@ -316,37 +316,6 @@ header {
   font-size: 1.2vw;
 }
 /* CATEGORY SECTION END */
-/* SEARCH BAR */
-#search-bar {
-  width: 100%;
-  height: 70px;
-  background-color: #06286d;
-  top: 100px;
-  position: sticky;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-#input-tag {
-  width: 70%;
-  height: 100%;
-  color: white;
-  background-color: transparent;
-  border: none;
-  font-size: 20px;
-  -webkit-tap-highlight-color: transparent;
-  outline: none;
-}
-::placeholder {
-  color: white;
-}
-#search-icon {
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-}
-/* SEARCH BAR END */
 /* CHEMICAL INFO */
 #chem-info {
   width: 100%;
@@ -631,4 +600,28 @@ hr {
   width: 100px;
   height: 100px;
 }
+
+/* GENERAL APPLICATION */
+#gen-application{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+#gen-app-cont{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#gen-app-cont p{
+  margin: 40px;
+}
+#gen-app-cont h2{
+  font-family: acme;
+}
+/* GENERAL APPLICATION END */
+
 /* CHEMICAL INFO END */
