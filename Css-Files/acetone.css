@@ -4,8 +4,11 @@
 body {
   background-color: #05215a;
   margin: 0;
-  overflow: overlay;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
+
 @font-face {
   font-family: "chemical";
   src: url("../Fonts/CHEMICAL.ttf") format("truetype");
