@@ -370,6 +370,10 @@ header {
   font-family: montserrat;
   overflow: scroll;
 }
+#chem-details::-webkit-scrollbar-button{
+  background-color: transparent;
+  color: transparent;
+}
 #chem {
   width: 100%;
   height: 100%;
