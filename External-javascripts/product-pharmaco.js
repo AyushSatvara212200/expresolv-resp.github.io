@@ -49,3 +49,11 @@ $(document).ready(function () {
         pageDots: false,
     });
 });
+$(document).ready(function(){
+    $("#input-tag").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#product-cont #product-div-1").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
