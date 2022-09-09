@@ -40,19 +40,24 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#pointer").click(function () {
         $("#gp-slider-usp").slideToggle("fast");
-
+        $("#gp-slider-phur").slideUp("fast");
+        $("#gp-slider-bp").slideUp("fast");
     })
 
 });
 $(document).ready(function () {
     $("#pointer1").click(function () {
         $("#gp-slider-phur").slideToggle("fast");
+        $("#gp-slider-usp").slideUp("fast");
+        $("#gp-slider-bp").slideUp("fast");
     })
 
 });
 $(document).ready(function () {
     $("#pointer2").click(function () {
         $("#gp-slider-bp").slideToggle("fast");
+        $("#gp-slider-phur").slideUp("fast");
+        $("#gp-slider-usp").slideUp("fast");
     })
 
 });
